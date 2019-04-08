@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\2342OT_Code\chapter-3\histogram.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="图片">
+      <UniqueIdentifier>{e0798a22-5b1c-4edd-b051-515ba7874b58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Test.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\sample.bmp">
+      <Filter>图片</Filter>
+    </Image>
+    <Image Include="..\sample_color.bmp">
+      <Filter>图片</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
